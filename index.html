@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Click & Collect - Décathlon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="login-screen" class="container">
+  <h2>Accès vendeur</h2>
+  <input type="password" id="accessCode" placeholder="Code">
+  <button onclick="checkAccess()">Entrer</button>
+  <p id="error"></p>
+</div>
+
+<div id="search-screen" class="container hidden">
+  <h2>Recherche commande</h2>
+  <input type="text" id="orderNumber" placeholder="Numéro de commande">
+  <button onclick="searchOrder()">Rechercher</button>
+
+  <div id="result" class="result hidden"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

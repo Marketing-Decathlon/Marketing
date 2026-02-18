@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #0082c3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #006fa6;
+}
+
+.hidden {
+  display: none;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* 👇 AJOUTE ÇA EN DESSOUS */
+
+.card {
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.ready {
+  border: 2px solid #2ecc71;
+  background-color: #eafaf1;
+}
+
+.collected {
+  border: 2px solid #e74c3c;
+  background-color: #fdecea;
+}
+
+.error {
+  border: 2px solid #999;
+  background-color: #f0f0f0;
+}
+
+.collect-btn {
+  margin-top: 10px;
+  background-color: #2ecc71;
+}
