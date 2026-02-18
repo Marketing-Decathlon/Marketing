@@ -1,4 +1,4 @@
-const API_URL = "https://script.google.com/macros/s/AKfycbzot_90soeBaLZLocIXROyIwgsOrWWmkCh6ysEQB1NJEgRwItLhwrFSu2MTJ-VjAb9t/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbxRguZ68t0OPDQgnQuJsNE13tzRPwhj2JJwxqn1WWwJBt8wunQ1eqB6FbeGTjv0oiY/exec";
 
 let currentOrderNumber = null;
 
@@ -114,3 +114,4 @@ function formatDate(dateString) {
   const date = new Date(dateString);
   return date.toLocaleString("fr-FR");
 }
+
